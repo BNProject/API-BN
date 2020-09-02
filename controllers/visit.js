@@ -411,7 +411,7 @@ class visit {
       let result = excelToJson({
         sourceFile: req.file.path,
         header: {
-          rows: 2
+          rows: 1
         },
         columnToKey: {
           A: 'retailer',
