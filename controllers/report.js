@@ -102,6 +102,7 @@ class report {
             Address: visit.tbl_store.address,
             "District": visit.tbl_store.district,
             "City": visit.tbl_store.city,
+            "Store is Open": visit.store_open ? "Yes" : "No",
             "Does the staff know how to activate Gift cards?": Number(visit.q1) === 1 ? "Yes" : "No",
             "Does the staff know how to activate POR?": Number(visit.q2) === 1 ? "Yes" : "No",
             "Does the staff know how to handle customer complaints about Gift card redemption?": Number(visit.q3) === 1 ? "Yes" : "No",
